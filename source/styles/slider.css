@@ -1,0 +1,126 @@
+.slider-container {
+	overflow-x: hidden;
+	padding: 10px 0;
+	width: 100%;
+	margin-top: 10px;
+}
+
+.slider-container .swiper-slide {
+	position: relative;
+	border-radius: 3px;
+	max-height: 650px;
+	width: 690px;
+	transition: transform 0.3s;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	overflow: hidden;
+}
+
+
+.slider-container .swiper-slide-active {
+	transform: scaleX(1.16) scaleY(1.2);
+	transition: transform 0.3s;
+}
+
+.slider-container .swiper-slide-active::after {
+	opacity: 1;
+	transition: opacity 0.3s;
+}
+
+.slide-title {
+	font-weight: 700;
+	font-size: 28px;position: relative;
+	z-index: 5;
+	padding-left: 35px;
+	transition: transform 0.3s;
+	transform: translateY(200px);
+	color: white;
+}
+
+.swiper-slide-active .slide-title {
+	transition: transform 0.3s;
+	transform: translateY(0);
+}
+
+.featured-videos {
+	padding-top: 130px;
+}
+.section-title{
+	text-align: center;
+}
+@media (max-width: 1200px) {
+	.slider-container .swiper-slide {
+		width: 700px;
+		min-height: 500px;
+	}
+}
+@media (max-width: 992px) {
+	.slider-container .swiper-slide {
+		width: 550px;
+		min-height: 400px;
+	}
+}
+@media (max-width: 768px) {
+	.slider-container .swiper-slide {
+		min-height: 300px;
+	}
+}
+@media (max-width: 710px) {
+	.slider-container .swiper-slide {
+		max-width: 400px;
+	}
+}
+@media (max-width: 500px) {
+	.slider-container .swiper-slide {
+		max-width: 350px;
+	}
+}
+@media (max-width: 400px) {
+	.slider-container .swiper-slide {
+		max-width: 300px;
+	}
+}
+
+.lakhta-text {
+	position: absolute;
+	left:0;
+	top: +50%;
+	padding-left:10px ;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 31px;
+	transform: translateY(500px);
+	transition: transform 0.3s ease-in-out;
+	color: rgb(254, 253, 248);
+}
+
+#piccarone::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	opacity: 0;
+	transition: opacity 0.3s ease-in-out;
+	background:  rgba(236, 120, 120, 0.322);
+}
+
+#piccarone {	opacity: 0.9;
+	transition: opacity 0.3s ease-in-out;
+}
+
+#piccarone:hover .lakhta-text {
+	transform: translateY(0);
+	transition: transform 0.3s ease-in-out;
+	color: black;
+}
+#piccarone:hover{
+	overflow: hidden;
+	background:  rgba(236, 120, 120, 0.322);
+	
+}

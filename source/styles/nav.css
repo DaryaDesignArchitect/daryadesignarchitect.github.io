@@ -1,0 +1,112 @@
+.navpanel {
+    height: 48px;
+    background-color: rgb(47, 46, 46);
+    color: white;
+    font-size: 18px;
+}
+.shiner {
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, #FFCD00 0%, #FFFF00 18%, #FFE100 38%, #D04900 54%, #963400 55%, #C14500 56%, #FFE100 65%, #FFE100 78%, #FFCD00 100%);
+    animation: ticker 4s linear infinite;
+    background-size: 200% 100%;
+}
+
+@keyframes ticker {
+    0% {
+        background-position: 100% 0;
+    }
+    100% {
+        background-position: -100% 0;
+    }
+}
+
+
+
+.nav-tem {
+    display: inline-block;
+}
+
+.nav-nav {
+    list-style: none;
+    padding-left: 28px;
+}
+
+.for-nav {
+    padding-left: 0px;
+    padding-right: 0px;
+    position: fixed;
+    z-index: 100;
+}
+
+a:-webkit-any-link .nav-tem {
+    text-decoration: none;
+}
+
+.nav-link {
+    color: white;
+    font-size: 20px;
+    font-weight:374;
+    margin-top: 4px;
+    padding-left: 0%;
+    opacity:0.92;
+}
+.contacts{
+    position: absolute;
+    right: 28px;
+    align-items: end;
+    top: 5px;
+}
+.nav-link:hover {
+    color: coral;
+    opacity: 1;
+}
+
+.loggo {
+    width: 75px;
+    height: 100%;
+    margin-top: 5px;
+}
+
+.navloggo {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+a,
+.contacts {
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 120px;
+    color: white;
+    opacity:0.89;
+    align-items: center;
+}
+.contacts:hover {
+    opacity: 1;
+}
+
+
+@media (max-width:991px) {
+    .carousel-control-prev,
+    .carousel-control-next {
+        display: none;
+    }
+}
+
+a,
+.picturestyle:hover {
+    color: rgb(5, 5, 5);
+}
+
+
+@media (max-width:694px) {
+    .contacts {
+        display: none;
+    }
+}
+@media (max-width:600px) {
+    .navpanel {
+        display: none;
+    }
+}

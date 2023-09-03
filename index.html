@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="source/styles/nav.css">
+  <link rel="stylesheet" href="source/styles/body.css">
+  <link rel="stylesheet" href="source/styles/drdwn.css">
+  <link rel="stylesheet" href="source/styles/slider.css">
+  <link rel="stylesheet" href="source/libs/swiper.min.css">
+  <script src="source/styles/dropdn.js"></script>
+  <title>Architect and Design</title>
+</head>
+
+<body>
+  <header>
+    <div class="container-fluid for-nav">
+      <div class="navpanel">
+        <ul class="nav-nav">
+          <li class="nav-tem">
+            <a class="nav-link" aria-current="page" href="/">About Me</a>
+          </li>
+          <li class="nav-tem">
+            <a class="nav-link" href="#card2block">My projects</a>
+          </li>
+          <li class="nav-tem">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-tem">
+            <a class="nav-link" href="Details_port.html">Details</a>
+          </li>
+          <div class="contacts">
+            <a id="concarone" href="./ru_index.html">
+              <img style="height: 18px;margin-right: 10px;filter: invert(100%); " src="source/files/RU.png" alt="">
+            </a>
+            <a id="concarone" href="https://t.me/Daria_Gashkova" target="_blank">
+              <img style="width: 25px;margin-right: 16px;" src="source/files/TG.svg" alt="">
+            </a>
+            <a id="concarone" href="https://wa.me/905348785308" target="_blank">
+              <img style="width: 25px;margin-right: 15px;" src="source/files/WA.svg" alt="">
+            </a>
+            <a id="concarone" href="mailto:4ennrgy@gmail.com" target="_blank">
+              <img style="width: 35px;" src="source/files/GM (2).svg" alt="">
+            </a>
+          </div>
+        </ul>
+
+      </div>
+      <div class="shiner"></div>
+    </div>
+    <div class="dropdown">
+      <button onclick="myFunction()" class="dropbtn"> Menu </button>
+      <div id="myDropdown" class="dropdown-content">
+        <a class="nav-link active" aria-current="page" href="/">About Me</a>
+        <a class="nav-link" href="#card2block">My projects</a>
+        <a class="nav-link" href="#skills">Skills</a>
+        <a class="nav-link" href="Details_port.html">Details</a>
+      </div>
+    </div>
+  </header>
+
+  <section>
+    <div style="padding-top: 0px;" class="container-fluid carusel-one">
+      <div class="row">
+        <div class="col-lg-1">
+          <div class="row">
+          </div>
+        </div>
+        <div class="col-lg-10 col-md-12 mt-3">
+          <div class="row carusel-one">
+            <div class="col-lg-1 col-md-12">
+            </div>
+            <div class="col-lg-4 col-md-12" style="opacity: 0.9;">
+              <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./source/images/first/Фото 1.jpeg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./source/images/first/Фото 2.jpeg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./source/images/first/Фото 3.jpeg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-12 slide-text" style="opacity: 0.85;">
+              <p class="english t1 fstsldtxt">Hi, I'm Dasha!</p>
+              <p class="english t2 fstsldtxt">AND I'M LOOKING FOR A NEW JOB<br>AS A LEAD ARCHITECT (BIM MANAGER)<br>IN
+                THE FIT-OUT AREA.</p>
+              <p class="english t3 fstsldtxt">
+                I'M FULL OF ENERGY AND HAVE IMPRESSIVE EXPERIENCE IN MANAGING A RATHER
+                LARGE TEAM, OVERSEEING A COUPLE OF THREE SUCCESSFULLY COMPLETED OFFICE INTERIOR PROJECTS.
+                <a class="btn-rset" data-bs-toggle="collapse" href="#t3Content" role="button" aria-expanded="false"
+                  aria-controls="t3Content">
+                  <b style="transform: rotate(90deg);font-size: 20px;">more information ></b>
+                </a>
+              </p>
+              <div class="collapse" id="t3Content">
+                <p class="english t3 fstsldtxt">
+                  Worked at Lakhta Center. Bachelor's degree from Moscow Architectural Institute (MARCHI).
+                  Awarded participant in an architectural competition for designing a bridge over the river
+                  and urban space in Copenhagen.
+                </p>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="col-lg-1">
+      </div>
+    </div>
+    </div>
+    </div>
+    <div class="container-fluid mt-5">
+      <div class="row">
+        <div class="col-lg-1">
+        </div>
+        <div class="col-lg-10 col-md-12">
+          <div class="row cart m-1" id="card2block">
+            <div class="col-lg-4 col-md-12">
+              <div class="col-lg-12 col-md-12 mt-4">
+                <div class="card lakhta" id="piccarone">
+                  <img style="max-height:880px" src="source/images/2к1 - tsp - Lahta - S.png" class="card-img-top"
+                    alt="...">
+                  <div class="card-body">
+                    <h5 class="h4">the Lakhta Center</h5>
+                    <h5 class="h5">Saint Petersburg</h5>
+                    <h5 class="card-title" style="text-transform: lowercase;">20 000 sq m</h5>
+                    <p class="card-title lakhta-text">Design of spaces and VIP zones in the offices of groups of
+                      companies.<br>Unfortunately the customer didn't agree on the placement of materials
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-12 col-md-12 mt-4">
+                <div class="card">
+                  <a class="picturestyle" href="Details_port.html"><img style="max-height:880px"
+                      src="source/images/1к1 - tsp - Sovkom NSB - S.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="h4">The Port</h5>
+                      <p class="h5">Engineer Street, Novosibirsk</p>
+                      <p class="card-title" style="text-transform: lowercase;">6 400 sq m</p>
+                  </a>
+                  <p></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12">
+            <div class="col-lg-12 col-md-12 mt-4">
+              <div class="card">
+                <a href="VIP.html"><img src="source/images/1к1 - tsp - Sovkom Vip - S.png" class="card-img-top"
+                    alt="..."></a>
+                <div class="card-body">
+                  <a class="picturestyle" href="VIP.html">
+                    <h5 class="h4">Sovcombank Building (VIP Zones)</h5>
+                    <p class="h5">Krasnopresnenskaya Embankment, Moscow</p>
+                    <p class="card-text" style="text-transform: lowercase;">970 sq m</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-12 col-md-12 mt-4">
+              <div class="card">
+                <a href="Details_sov.html"><img src="source/images/1к1 - tsp - Sovkom 1-2 - S.png" class="card-img-top"
+                    alt="..."></a>
+                <div class="card-body">
+                  <a class="picturestyle" href="Details_sov.html">
+                    <h5 class="h4">Business center</h5>
+                    <p class="h5">1st Zemelny Pereulok, Moscow</p>
+                    <p class="card-text" style="text-transform: lowercase;">1 050 sq m</p>
+                  </a>
+                  <p></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-12 col-md-12 mt-4">
+              <div class="card lakhta" id="piccarone">
+                <img style="max-height:880px" src="source/images/1к1 - tsp - Comcity.png" class="card-img-top"
+                  alt="...">
+                <div class="card-body">
+                  <h5 class="h4">the comcity</h5>
+                  <h5 class="h5">Kiew highway, Moscow</h5>
+                  <h5 class="card-title" style="text-transform: lowercase;">4 500 sq m</h5>
+                  <p class="card-text lakhta-text">Design of spaces and VIP zones in the offices of groups of
+                    companies.<br>Unfortunately the customer didn't agree on the placement of materials
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div style="margin-bottom: 200px" class="col-lg-4 col-md-12">
+            <div class="col-lg-12 col-md-12 mt-4">
+              <div class="card">
+                <a href="Details_dm_tower.html"><img src="source/images/1к1 - tsp - TheOffice  - S.png" class="card-img-top "
+                    alt="..."></a>
+                <div class="card-body">
+                  <a class="picturestyle" href="Details_dm_tower.html">
+                    <h5 class="h4">Business center DM Tower</h5>
+                    <p class="h5">Novodanilovskaya Embankment, Moscow</p>
+                    <p class="card-text" style="text-transform: lowercase;">2 000 sq m</p>
+                  </a>
+                  <p></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-12 col-md-12 mt-4">
+              <div class="card">
+                <a href="Details_tcl.html"><img src="source/images/The_city_link/1.jpg"
+                    style=" opacity: 0.85;"
+                    class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                  <a class="picturestyle" href="Details_tcl.html">
+                    <h5 class="h4">The City Link</h5>
+                    <p class="h5">Architectural competition on the topic: project of a bridge and part of the
+                      urban space in Copenhagen</p>
+                  </a>
+                  <p></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-12 col-md-12 mt-4">
+              <div class="card">
+                <a href="Details_richmond.html"><img src="source/images/1к1 - tsp - Richmond.png"
+                    style="overflow: hidden; border-top-right-radius: 18px;border-top-left-radius: 18px;"
+                    class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                  <a class="picturestyle" href="Details_richmond.html">
+                    <h5 class="h4">The Richmond</h5>
+                    <p class="h5">Kirova Street, Novosibirsk</p>
+                    <p class="card-text" style="text-transform: lowercase;">3 300 sq m</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="col-lg-1 md-col-12">
+      </div>
+    </div>
+
+    <div class="bgimage" id="skills">
+      <img style="opacity: 0.93;" src="source/images/first/Карусель .jpg">
+    </div>
+
+    <div class="container-fluid mt-5">
+      <div class="row">
+        <div class="col-lg-1">
+        </div>
+
+        <div class="col-lg-10 col-md-12">
+          <div class="row skills">
+            <div class="skill-text">
+              <p>I always manage my projects with pleasure, starting from getting to know the Customer and his
+                representatives - up to the completion of the project. In most cases, I can foresee problematic
+                project locations, in advance
+                discuss in terms of financial and technical alternatives, replacement of materials, taking into account
+                delivery times.</p>
+
+              <p>
+                I have key skills in organizing and managing a project. Building a critical path, setting checkpoints, I
+                use the motivation system within my team. Organization of daily meetings within team with the setting
+                and monitoring of long and short tasks. Organization and holding of working meetings with
+                representatives of the Customer and his contractors
+              </p>
+              <p>I'm proficient in the following tools:</p>
+              <p>
+                <snap class="textme">Revit, BIM 360</snap> - workspace for the project
+                groups, subcontractors (BIM-management), work with complex types of families.
+                <br>
+                <snap class="textme">Autocad</snap> - implementation and
+                parallel work through Revit, creation of dynamic blocks.</br>
+                <snap class="textme">3DS Max</snap> - work in conjunction with Revit, creation
+                images and interiors.
+                <br>
+                <snap class="textme">Photoshop, Illustrator, Gimp</snap>
+                - graphic raster and vector editors - creation of secondary
+                elements, visualization of ideas.</br>
+                <snap class="textme">InDesign</snap> - creating presentations and layouts.
+              </p>
+              <p>I speak English at B1-B2 level</p>
+
+              <p>I love my job, I complete the contract scope of work in a timely manner, but I also respect my work,
+                and I am looking for an interesting job with decent pay.</p>
+
+              <p>Various forms of cooperation are possible, I will be glad to meet new people!</p>
+
+
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col-lg-1">
+        </div>
+      </div>
+    </div>
+    </section>
+      <footer">
+        <div class="row footeritems">
+          <div class="col-lg-4 col-md-12 footer-text text-center mb-4" id="concarone">
+            <a href="#skills">
+              <img style="margin-left: 0.5rem; width: 23px;" src="source/files/Icons Adobe_ Revit.png" alt="">
+              <img style="margin-left: 0.5rem;width: 23px;" src="source/files/Icons Adobe_ AutoCad.png" alt="">
+              <img style="margin-left: 0.5rem;width: 23px;" src="source/files/Icons Adobe_ 3ds max.png" alt="">
+              <img style="margin-left: 0.5rem;width: 23px;"
+                src="source/files/Icons Adobe_Монтажная область 1 копия 3.png" alt="">
+              <img style="margin-left: 0.5rem;width: 23px;"
+                src="source/files/Icons Adobe_Монтажная область 1 копия 4.png" alt="">
+              <img style="margin-left: 0.5rem;width: 23px;"
+                src="source/files/Icons Adobe_Монтажная область 1 копия 5.png" alt="">
+            </a>
+          </div>
+          <div class="col-lg-4 col-md-12 footer-text text-center mb-4">
+            <a id="concarone" href="https://t.me/Daria_Gashkova" target="_blank"><img style="width: 35px;"
+                src="source/files/tg.png" alt=""></a>
+            <a id="concarone" href="https://wa.me/905348785308" target="_blank">
+              <img style="width: 40px;" src="source/files/WA.png" alt="">
+              <snap style="text-decoration-style: none;" class="picturestyle">+90(534)8785308</snap>
+            </a>
+          </div>
+          <div class="col-lg-4 col-md-12 footer-text text-center pb-4" id="concarone" target="_blank">
+            <a href="mailto:4ennrgy@gmail.com">
+              <img style="width: 30px;" src="source/files/GM (2).svg" alt="">
+              <snap class="picturestyle">4ennrgy@gmail.com</snap>
+            </a>
+          </div>
+        </div>
+        </div>
+
+        </footer>
+        <script src="source/libs/swiper.min.js"></script>
+        <script src="source/js/main.js"></script>
+</body>
+
+</html>
